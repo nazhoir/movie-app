@@ -82,11 +82,11 @@ class HomeScreen extends StatelessWidget {
                       Movie movie = snapshot.data![index];
 
                       return CardMovieHorizontal(
-                          title: movie.title,
-                          rating: movie.rating,
-                          poster:
-                              "${controller.mainImageURL}${movie.wallpaper}",
-                          categories: movie.categories);
+                        title: movie.title,
+                        rating: movie.rating,
+                        poster: "${controller.mainImageURL}${movie.wallpaper}",
+                        categories: movie.categories,
+                      );
                     },
                     options: CarouselOptions(
                       autoPlay: false,
@@ -131,10 +131,11 @@ class HomeScreen extends StatelessWidget {
                       Movie movie = snapshot.data![index];
 
                       return CardMovieVertical(
-                          title: movie.title,
-                          rating: movie.rating,
-                          categories: movie.categories,
-                          poster: "${controller.mainImageURL}${movie.poster}");
+                        title: movie.title,
+                        rating: movie.rating,
+                        categories: movie.categories,
+                        poster: "${controller.mainImageURL}${movie.poster}",
+                      );
                     },
                   );
                 },

@@ -4,14 +4,12 @@ import 'package:moviez/home.dart';
 import 'package:provider/provider.dart';
 
 import 'controller/home_controller.dart';
-import 'controller/search_controller.dart';
 
 void main() {
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => HomeController()),
-        ChangeNotifierProvider(create: (_) => SearchController()),
       ],
       child: const MyApp(),
     ),
