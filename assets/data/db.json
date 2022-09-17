@@ -1,0 +1,87 @@
+{
+    "all" : {
+        "data" : [
+            {
+                "title": "John Wick 4",
+                "rating": 5,
+                "poster": "/2LBK2475hlrLQT6uwjrnVZ6vc0l.jpg",
+                "wallpaper": "/shaz5Y1GA1hy9BtgHij6gd0AcY0.jpg",
+                "categories":  "Action, Crime"
+            },
+            {
+                "title": "Beauty & The Beast",
+                "rating": 5,
+                "poster": "/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
+                "wallpaper": "/phhbtV5BEdn4TYLTMKFwYz2VSNl.jpg",
+                "categories":"History, War"
+            },
+            {
+                "title": "Mulan",
+                "rating": 3,
+                "poster": "/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+                "wallpaper": "/zMrk2G3XsnfYKiIp1NEfdtvDyBH.jpg",
+                "categories":"History, War"
+            },
+        
+            
+            {
+                "title": "Rust Creek",
+                "rating": 3,
+                "poster": "/9Jpw5MZT9EDvgSNBrsL8C36NS4O.jpg",
+                "wallpaper": "/xmLLkEhqIw0Me0wgO9ZhtP0MW7U.jpg",
+                "categories":"Horor"
+            },
+            {
+                "title": "The Dark Knight",
+                "rating": 5,
+                "poster": "/pKKvCaL1TPTVtbI6EeliyND3api.jpg",
+                "wallpaper": "/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+                "categories":"Heroes"
+            },
+            {
+                "title": "The Dark Tower",
+                "rating": 4,
+                "poster": "/i9GUSgddIqrroubiLsvvMRYyRy0.jpg",
+                "wallpaper": "/pVVobDO8cezhVPvwD6EBUN0g3mt.jpg",
+                "categories":"Horor"
+            }
+        
+        ]
+    },
+    "disney" : {
+        "data" : [
+            {
+                "title": "Beauty & The Beast",
+                "rating": 5,
+                "poster": "/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
+                "wallpaper": "/phhbtV5BEdn4TYLTMKFwYz2VSNl.jpg",
+                "categories":"History, War"
+            },
+            {
+                "title": "Mulan",
+                "rating": 3,
+                "poster": "/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+                "wallpaper": "/zMrk2G3XsnfYKiIp1NEfdtvDyBH.jpg",
+                "categories":"History, War"
+            }
+        ]
+    },
+    "popular" : {
+        "data" : [
+            {
+                "title": "John Wick 4",
+                "rating": 5,
+                "poster": "/2LBK2475hlrLQT6uwjrnVZ6vc0l.jpg",
+                "wallpaper": "/shaz5Y1GA1hy9BtgHij6gd0AcY0.jpg",
+                "categories":  "Action, Crime"
+            },
+            {
+                "title": "Beauty & The Beast",
+                "rating": 5,
+                "poster": "/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
+                "wallpaper": "/phhbtV5BEdn4TYLTMKFwYz2VSNl.jpg",
+                "categories":"History, War"
+            }
+        ]
+    }
+}
