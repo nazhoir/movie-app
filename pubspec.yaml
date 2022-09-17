@@ -42,7 +42,7 @@ dependencies:
   shimmer_animation: ^2.1.0+1
   cached_network_image: ^3.2.2
   custom_rating_bar: ^2.0.4
-  search_page: ^2.2.0
+  flutter_launcher_icons: ^0.10.0
   
 
 dev_dependencies:
@@ -60,6 +60,21 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/logo.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/image/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#FFFFFF"
+  windows:
+    generate: true
+    image_path: "assets/image/logo.png"
+    icon_size: 48 
 flutter:
 
   # The following line ensures that the Material Icons font is
